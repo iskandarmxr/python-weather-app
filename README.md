@@ -9,6 +9,12 @@ This app displays:
 
 The app is suitable for anyone looking to integrate real-world API data into a modern web interface using Python.
 
+![Screenshot 2025-06-29 230726](https://github.com/user-attachments/assets/5750bfdc-c0cb-4946-811b-2968c9b008ee)
+
+![Screenshot 2025-06-29 230806](https://github.com/user-attachments/assets/e96790c3-fa8d-4756-b531-181b76d331a1)
+
+![Screenshot 2025-06-29 230749](https://github.com/user-attachments/assets/862d2abe-a53f-4062-98af-0625994e15e0)
+
 ---
 
 ## 🧩 Features
@@ -33,16 +39,23 @@ The app is suitable for anyone looking to integrate real-world API data into a m
 ---
 
 ## 🛠️ Project Structure
+```
 weather_app/
-├── app.py # Main Flask app
-├── requirements.txt # Python dependencies
-├── weather/ # API modules
-│ ├── forecast.py
-│ ├── warning.py
-│ └── earthquake.py
+│
+├── app.py                      ← Main Flask app
+├── requirements.txt
+│
+├── weather/
+│   ├── __init__.py
+│   ├── forecast.py
+│   ├── warning.py
+│   └── earthquake.py
+│
 ├── templates/
-│ └── index.html # HTML layout (Bootstrap + Jinja2)
-└── static/ # (Optional) Static files
+│   └── index.html              ← HTML view
+└── static/
+    └── style.css               ← (optional) styling
+```
 
 ---
 
