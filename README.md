@@ -1,6 +1,6 @@
 # 🇲🇾 Malaysia Weather Web App
 
-A simple and responsive weather web application built with **Python Flask** and **Bootstrap**, using real-time data from the [Malaysia Data.gov.my Weather APIs]([https://api.data.gov.my/](https://developer.data.gov.my/realtime-api/weather)).  
+A simple and responsive weather web application built with **Python Flask** and **Bootstrap**, using real-time data from the [Malaysia Data.gov.my Weather APIs](https://developer.data.gov.my/realtime-api/weather)
 This app displays:
 
 - 📡 General weather forecasts  
